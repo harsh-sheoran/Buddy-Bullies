@@ -31,7 +31,6 @@
     --fw-400:400;
 }
 
-
 .fs_70 {
     font-size: var(--fs_70);
 }
@@ -55,7 +54,6 @@
 .fs_16 {
     font-size: var(--fs_16);
 }
-
 
 .fw_700 {
     font-weight: 700;
@@ -192,6 +190,7 @@
     max-width: 1920px !important;
     height: 225px !important;
 }
+
 .border-0{
     border: 0 !important;
 }
@@ -223,7 +222,6 @@
     letter-spacing: 0em;
     font-family: "poppins", sans-serif;
 }
-
 
 .Before-2-SOL {
     opacity: 0.5;
@@ -360,7 +358,6 @@
     color: #FFFFFF !important;
     font-family: "poppins", sans-serif;
 }
-
 
 .Roadmap {
     color: #FFFFFF;
@@ -780,7 +777,6 @@
     .align-text-end {
         text-align: unset !important;
     }
-
 }
 
 @media(max-width:768px) {
