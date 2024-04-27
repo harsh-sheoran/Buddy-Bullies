@@ -8,27 +8,27 @@
     text-decoration: none;
 }
 
-:root{
+:root {
 
     /* font families */
-    --ff-poppins:'Poppins', sans-serif;
-    --ff-montserrat:'Montserrat', sans-serif;
+    --ff-poppins: 'Poppins', sans-serif;
+    --ff-montserrat: 'Montserrat', sans-serif;
 
     /* font sizes */
     --fs70: 70px;
-    --fs50:50px;
-    --f30:30px;
-    --f25:25px;
-    --f22:22px;
-    --f20:20px;
-    --f18:18px;
-    --f16:16px;
+    --fs50: 50px;
+    --f30: 30px;
+    --f25: 25px;
+    --f22: 22px;
+    --f20: 20px;
+    --f18: 18px;
+    --f16: 16px;
 
     /* font weights */
-    --fw-700:700;
-    --fw-600:600;
-    --fw-500:500;
-    --fw-400:400;
+    --fw-700: 700;
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-400: 400;
 }
 
 .fs_70 {
@@ -153,7 +153,7 @@
     width: 225px;
     height: 63px;
     border-radius: 45.5px;
-    background-color:white;
+    background-color: white;
     border: none;
 }
 
@@ -191,7 +191,7 @@
     height: 225px !important;
 }
 
-.border-0{
+.border-0 {
     border: 0 !important;
 }
 
@@ -200,7 +200,7 @@
 }
 
 .bg-blue {
-    background-color:#000A1A;
+    background-color: #000A1A;
 }
 
 .Mint-Your-Bat {
@@ -240,7 +240,7 @@
     height: 44px;
     padding: 10px 20px 10px 20px;
     border-radius: 45.5px;
-    background-color:white;
+    background-color: white;
     border: none;
 }
 
@@ -496,6 +496,8 @@
     color: #FFFFFF;
     text-align: left;
     background-color: #031227 !important;
+    display: flex;
+    max-width: 830px !important;
 }
 
 .accordion-body {
@@ -664,6 +666,7 @@
 .hover2:hover {
     background-color: #FFFEA1 !important;
 }
+
 .pt-45 {
     padding-top: 45px;
 }
@@ -673,23 +676,23 @@
 }
 
 .Resources {
-    font-family:"poppins",sans-serif;
-    font-size:16px;
-    font-weight:500;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
-    color:white !important;
+    color: white !important;
 }
 
 .Roadmap-1 {
-    font-family:"poppins",sans-serif;
+    font-family: "poppins", sans-serif;
     font-size: 14px;
-    font-weight:400;
+    font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 .gap-12 {
@@ -708,10 +711,6 @@
     bottom: -8%;
     left: 0;
     z-index: -1;
-}
-
-.hover3:hover {
-    fill: #FFFEA1 !important;
 }
 
 .Ellipse-4 {
