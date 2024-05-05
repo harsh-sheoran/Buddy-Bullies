@@ -7,70 +7,6 @@
     list-style-type: none;
     text-decoration: none;
 }
-
-:root {
-
-    /* font families */
-    --ff-poppins: 'Poppins', sans-serif;
-    --ff-montserrat: 'Montserrat', sans-serif;
-
-    /* font sizes */
-    --fs70: 70px;
-    --fs50: 50px;
-    --f30: 30px;
-    --f25: 25px;
-    --f22: 22px;
-    --f20: 20px;
-    --f18: 18px;
-    --f16: 16px;
-
-    /* font weights */
-    --fw-700: 700;
-    --fw-600: 600;
-    --fw-500: 500;
-    --fw-400: 400;
-}
-
-.fs_70 {
-    font-size: var(--fs_70);
-}
-
-.fs_50 {
-    font-size: var(--fs_30);
-}
-
-.fs_25 {   
-    font-size: var(--fs_25);
-}
-
-.fs_20 {
-    font-size: var(--fs_20);
-}
-
-.fs_18 {
-    font-size: var(--fs_18);
-}
-
-.fs_16 {
-    font-size: var(--fs_16);
-}
-
-.fw_700 {
-    font-weight: 700;
-}
-
-.fw_600 {
-    font-weight: 600;
-}
-
-.fw_500 {
-    font-weight: 500;
-}
-
-.fw_400 {
-    font-weight: 400;
-}
-
 .container {
     max-width: 1320px !important;
 }
@@ -499,6 +435,7 @@
     background-color: #031227 !important;
     display: flex;
     max-width: 830px !important;
+    padding: 20px !important;
 }
 
 .accordion-body {
