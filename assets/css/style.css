@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: center;
 }
- 
+
 .Logo {
     color: #fff;
     font-weight: 600;
@@ -55,7 +55,7 @@
     text-align: left;
     max-width: 515px;
     line-height: 87px;
-      letter-spacing: 0em;
+    letter-spacing: 0em;
     font-family: "poppins", sans-serif;
 }
 
@@ -220,7 +220,7 @@
 }
 
 .card {
-    height: 511px !important;
+    max-height: 511px !important;
     max-width: 426px !important;
     border-radius: 20px !important;
     background-color: #031227 !important;
@@ -751,8 +751,20 @@
         right: 2%;
     }
 
+.font13 {
+    font-size: 18px;
+}
+
+    .working {
+        font-size: 20px;
+    }
+
     .card {
-        max-width: unset !important;
+        max-height: 615px !important;
+    }
+
+    .ART-COLLECTION {
+        font-size: 26px;
     }
 
     .pt-40 {
