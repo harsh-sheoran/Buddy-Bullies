@@ -220,7 +220,7 @@
 }
 
 .card {
-    max-height: 511px !important;
+    height: 511px !important;
     max-width: 426px !important;
     border-radius: 20px !important;
     background-color: #031227 !important;
@@ -663,6 +663,7 @@
     cursor: pointer;
 }
 
+
 @media(max-width:942px) {
     .translate-y {
         transform: translateY(20%);
@@ -760,7 +761,7 @@
     }
 
     .card {
-        max-height: 615px !important;
+        height: 615px !important;
     }
 
     .ART-COLLECTION {
